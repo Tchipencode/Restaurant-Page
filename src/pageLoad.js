@@ -9,6 +9,7 @@ import Person2 from './images/person-2.jpg';
 import Person3 from './images/person-3.jpg';
 import Person4 from './images/person-4.jpg';
 import Stars from './images/Stars.png';
+import Dot from './images/Dot.png';
 
 
 
@@ -65,19 +66,20 @@ export default function pageContent(){
 
 
    const homePic= document.createElement("div");
+   homePic.classList.add("homePic");
    firstDiv.appendChild(homePic);
 
    const maskGroup= document.createElement("img");
    homePic.appendChild(maskGroup);
    maskGroup.src=Img4;
+   const dish= document.createElement("img");
+   dish.setAttribute("id", "dish");
+   homePic.appendChild(dish);
+   dish.src=Dish;
 
    const secondDiv= document.createElement("div");
    secondDiv.classList.add("secondDiv");
    content.appendChild(secondDiv);
-
-   // const info=document.createElement("div");
-   // info.classList.add("info");
-   // secondDiv.appendChild(info);
 
    const hourOpen=document.createElement("div");
    hourOpen.classList.add("hourOpen");
@@ -142,7 +144,7 @@ export default function pageContent(){
    myImgThree.setAttribute("id", "my-img-three");
    const dishDesc3=document.createElement("p");
    thirdDishes.appendChild(dishDesc3);
-   dishDesc3.textContent="Taro is an dish from cameroon";
+   dishDesc3.textContent="Taro is a dish from cameroon";
 
    const fourthDiv=document.createElement("div");
    fourthDiv.classList.add("fourthDiv");
@@ -151,6 +153,7 @@ export default function pageContent(){
    const feedTitle=document.createElement("div");
    fourthDiv.appendChild(feedTitle);
    feedTitle.classList.add("feedTitle");
+   feedTitle.textContent="Customers testimonies"
 
    const feedback=document.createElement("div");
    fourthDiv.appendChild(feedback);
@@ -210,11 +213,23 @@ export default function pageContent(){
    thirdFeed.appendChild(textDiv3);
    textDiv3.textContent= "This is an awesome restaurant that i recommend to every one in this city. Lorem ipsum dolor sit amet consectetur adipisicing elit. At cum ut aspernatur aut voluptatibus recusandae corrupti blanditiis! Perferendis facilis, dignissimos voluptate suscipit ipsam et, magnam consectetur nam, reiciendis explicabo dolores?";
 
+   const dot=document.createElement("div");
+   fourthDiv.appendChild(dot);
+   dot.classList.add("dot");
+   const dotImg=document.createElement("img");
+   dotImg.src=Dot;
+   dot.appendChild(dotImg);
+
    const footer=document.createElement("div");
    footer.classList.add("footer");
    document.body.appendChild(footer);
-   footer.textContent="created by TchipenCode"
-
+   const footerContent1=document.createElement("p");
+   footer.appendChild(footerContent1);
+   footerContent1.textContent="Created by TchipenCode";
+   const footerContent2=document.createElement("p");
+   footer.appendChild(footerContent2);
+   footerContent2.textContent="Design by Isaac Donkoh on Figma" +"  / Credit photo: freepick";
+   
    return ( title, hourOpen, address, feedback, thirdDiv, fourthDiv, footer);
 
 
