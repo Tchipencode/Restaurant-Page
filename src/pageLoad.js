@@ -40,6 +40,7 @@ export default function pageContent(){
    const title=document.createElement("h3");
    title.textContent= "Welcome to the famous Tchipen Restaurant";
    homeTitle.appendChild(title);
+   title.setAttribute("id", "title");
 
    const para=document.createElement("p");
    para.textContent=" We provide you the best tropical food. we are restaurant that bring you to a new experience of food";
@@ -49,21 +50,14 @@ export default function pageContent(){
    command.classList.add("btnCommand");
    homeTitle.appendChild(command);
 
-   const btnMenu=document.createElement("button");
-   btnMenu.setAttribute("id","btnMenu");
-   command.appendChild(btnMenu);
-   btnMenu.textContent="Menu";
+   const btnMenu2=document.createElement("button");
+   btnMenu2.setAttribute("id","btnMenu2");
+   command.appendChild(btnMenu2);
+   btnMenu2.textContent="Menu";
    const btnSubBook= document.createElement("button");
    btnSubBook.setAttribute("id","btnSubBook");
    command.appendChild(btnSubBook);
    btnSubBook.textContent="Book a table";
-
-   // const plate=document.createElement("img");
-   // plate.setAttribute("id","plate");
-   // plate.src=Dish;
-   // firstDiv.appendChild(plate);
-   
-
 
    const homePic= document.createElement("div");
    homePic.classList.add("homePic");
@@ -223,15 +217,41 @@ export default function pageContent(){
    const footer=document.createElement("div");
    footer.classList.add("footer");
    document.body.appendChild(footer);
-   const footerContent1=document.createElement("p");
-   footer.appendChild(footerContent1);
-   footerContent1.textContent="Created by TchipenCode";
-   const footerContent2=document.createElement("p");
-   footer.appendChild(footerContent2);
-   footerContent2.textContent="Design by Isaac Donkoh on Figma" +"  / Credit photo: freepick";
+
+   const footerul=document.createElement("ul");
+   footer.appendChild(footerul);
+
+   const footerli1=document.createElement("li");
+   footerul.appendChild(footerli1);
+   footerli1.textContent="Created by TchipenCode";
+
+   const footerli2=document.createElement("li");
+   footerul.appendChild(footerli2);
+   const link1=document.createElement("a");
+   footerli2.appendChild(link1);
+   link1.textContent="Home design by Isaac Donkoh on Figma";
+   link1.href="https://www.figma.com/file/frF7JGEyMKouKPNU1skLE1/Restaurant-website-Landing-Page-Design-(Community)?type=design&node-id=1-3&mode=design&t=Ib6Uc0I2c9aDnMEp-0";
+
+   const footerli3=document.createElement("li");
+   footerul.appendChild(footerli3);
+   const link2=document.createElement("a");
+   footerli3.appendChild(link2);
+   link2.textContent="Menu design by: Mehrab Bozorgi on Figma";
+   link2.href="https://www.figma.com/file/bLEhYjxIBojVGhXEvszGqR/Restaurant-Website-(Community)?type=design&node-id=1-432&mode=design&t=BFpYgZL7vjTr3WX1-0";
    
+   const footerli4=document.createElement("li");
+   footerul.appendChild(footerli4);
+   const link3=document.createElement("a");
+   footerli4.appendChild(link3);
+   link3.textContent="Credit photo: freepik";
+   link3.href="https://fr.freepik.com/user/downloads?page=1&type=regular"
    return ( title, hourOpen, address, feedback, thirdDiv, fourthDiv, footer);
 
-
-
 }
+
+function clear(){
+   content.remove();
+   // content.remove();
+}
+export{clear};
+
