@@ -5,8 +5,6 @@ module.exports = {
    mode: 'development',
   entry: {
    index: './src/index.js',
-  //  pageLoad: './src/pageHome.js',
-  //  pageMenu: './src/pageMenu.js',
   },
   devtool: 'inline-source-map',
   devServer: {
@@ -23,6 +21,7 @@ module.exports = {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
+    assetModuleFilename: 'images/[name][ext][query]',
   },
   optimization: {
    runtimeChunk: 'single',

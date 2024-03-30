@@ -1427,7 +1427,7 @@ function createItem(obj, parent){
   \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "02aad91d88e79647ab7c.png";
+module.exports = __webpack_require__.p + "images/Dot.png";
 
 /***/ }),
 
@@ -1437,7 +1437,7 @@ module.exports = __webpack_require__.p + "02aad91d88e79647ab7c.png";
   \***********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "9fae6b1344ce0c9b56a7.png";
+module.exports = __webpack_require__.p + "images/Mask group.png";
 
 /***/ }),
 
@@ -1447,7 +1447,7 @@ module.exports = __webpack_require__.p + "9fae6b1344ce0c9b56a7.png";
   \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "275d00cc4624d97f36cc.png";
+module.exports = __webpack_require__.p + "images/Stars.png";
 
 /***/ }),
 
@@ -1457,7 +1457,7 @@ module.exports = __webpack_require__.p + "275d00cc4624d97f36cc.png";
   \****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "f53b8212de2dade45b22.png";
+module.exports = __webpack_require__.p + "images/Vegetable salad.png";
 
 /***/ }),
 
@@ -1467,7 +1467,7 @@ module.exports = __webpack_require__.p + "f53b8212de2dade45b22.png";
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "d1451cfa8cc98fbd4854.png";
+module.exports = __webpack_require__.p + "images/dish.png";
 
 /***/ }),
 
@@ -1477,7 +1477,7 @@ module.exports = __webpack_require__.p + "d1451cfa8cc98fbd4854.png";
   \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "8d1ebcf842111e318630.jpeg";
+module.exports = __webpack_require__.p + "images/eru2.jpeg";
 
 /***/ }),
 
@@ -1487,7 +1487,7 @@ module.exports = __webpack_require__.p + "8d1ebcf842111e318630.jpeg";
   \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "4e222a408c0d6eb75f9b.jpeg";
+module.exports = __webpack_require__.p + "images/koki.jpeg";
 
 /***/ }),
 
@@ -1497,7 +1497,7 @@ module.exports = __webpack_require__.p + "4e222a408c0d6eb75f9b.jpeg";
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "d7f843b0b70b7ae6fa5c.png";
+module.exports = __webpack_require__.p + "images/logo.png";
 
 /***/ }),
 
@@ -1507,7 +1507,7 @@ module.exports = __webpack_require__.p + "d7f843b0b70b7ae6fa5c.png";
   \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "171be3bc01c1b1483a49.png";
+module.exports = __webpack_require__.p + "images/person-1.png";
 
 /***/ }),
 
@@ -1517,7 +1517,7 @@ module.exports = __webpack_require__.p + "171be3bc01c1b1483a49.png";
   \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "3695e0d41939716548e1.jpg";
+module.exports = __webpack_require__.p + "images/person-2.jpg";
 
 /***/ }),
 
@@ -1527,7 +1527,7 @@ module.exports = __webpack_require__.p + "3695e0d41939716548e1.jpg";
   \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "a76be99608f49b521c0f.jpg";
+module.exports = __webpack_require__.p + "images/person-3.jpg";
 
 /***/ }),
 
@@ -1537,7 +1537,7 @@ module.exports = __webpack_require__.p + "a76be99608f49b521c0f.jpg";
   \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "a7dadc8d06a62c57dcb7.jpg";
+module.exports = __webpack_require__.p + "images/person-4.jpg";
 
 /***/ }),
 
@@ -1547,7 +1547,7 @@ module.exports = __webpack_require__.p + "a7dadc8d06a62c57dcb7.jpg";
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "30bafdc8668969657076.png";
+module.exports = __webpack_require__.p + "images/pic1.png";
 
 /***/ }),
 
@@ -1557,7 +1557,7 @@ module.exports = __webpack_require__.p + "30bafdc8668969657076.png";
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "3aff47cc4ad411b33b88.png";
+module.exports = __webpack_require__.p + "images/pic2.png";
 
 /***/ }),
 
@@ -1567,7 +1567,7 @@ module.exports = __webpack_require__.p + "3aff47cc4ad411b33b88.png";
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "01d5541951379f2de814.png";
+module.exports = __webpack_require__.p + "images/pic3.png";
 
 /***/ }),
 
@@ -1577,7 +1577,7 @@ module.exports = __webpack_require__.p + "01d5541951379f2de814.png";
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "7d625fa8ff35c8c76273.png";
+module.exports = __webpack_require__.p + "images/pic4.png";
 
 /***/ }),
 
@@ -1587,7 +1587,7 @@ module.exports = __webpack_require__.p + "7d625fa8ff35c8c76273.png";
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "db7967d2840c2fb127c7.png";
+module.exports = __webpack_require__.p + "images/star.png";
 
 /***/ }),
 
@@ -1597,7 +1597,7 @@ module.exports = __webpack_require__.p + "db7967d2840c2fb127c7.png";
   \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "2c3c052bf7d7b94888cd.jpeg";
+module.exports = __webpack_require__.p + "images/taro.jpeg";
 
 /***/ })
 
