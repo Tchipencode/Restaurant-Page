@@ -43,9 +43,6 @@ export default function displayMenu(){
    const menu=document.createElement("div");
    content.appendChild(menu);
    menu.classList.add("menu");
-   // const card=document.createElement("div");
-   // menu.appendChild(card);
-   // card.classList.add("card");
    cards.forEach(obj=>{
       createItem(obj, menu);
    });
@@ -96,44 +93,5 @@ function createItem(obj, parent){
    parent.appendChild(card);
    return (card);
 
-
 }
 
-
-
-// export default function menuContent(){
-//    const content= document.querySelector("#content");
-
-//    const card1=document.createElement("div");
-//    content.appendChild(card1);
-//    card1.classList.add("card1")
-//    const card1Title=document.createElement("div");
-//    card1.appendChild(card1Title);
-//    const card1h4= document.createElement("h4");
-//    card1Title.appendChild(card1h4);
-//    card1h4.textContent="Steak with tomato";
-//    const card1para=document.createElement("p");
-//    card1Title.appendChild(card1para);
-//    card1para.textContent="Salisbury Steak is made with ground beef that has been shaped into patties, while Swiss Steak is made with actual steak. For Swiss Steak, the beef is rolled or pounded and then braised in a";
-//    const card1price=document.createElement("div");
-//    card1.appendChild(card1price);
-//    const card1PriceText= document.createElement("p");
-//    card1price.appendChild(card1PriceText);
-//    card1PriceText.textContent="5 000 FCFA";
-//    const card1PriceStar=document.createElement("img");
-//    card1price.appendChild(card1PriceStar);
-//    card1PriceStar.src=Star;
-//    const card1PriceNote= document.createElement("p");
-//    card1price.appendChild(card1PriceNote);
-//    card1PriceNote.textContent="4.9"
-
-//    const card1Dish=document.createElement("div");
-//    card1.appendChild(card1Dish);
-//    const card1Pic= document.createElement("img");
-//    card1Dish.appendChild(card1Pic);
-//    card1Pic.setAttribute("id", "card1Pic");
-//    card1Pic.src=Pic1;
-
-//    return(content, card1);
-
-// }

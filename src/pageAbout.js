@@ -1,6 +1,5 @@
 import Img4 from './images/Mask group.png';
 
-const content= document.querySelector("#content");
 
 export default function displayAbout(){
    const content= document.querySelector("#content");
@@ -22,6 +21,7 @@ export default function displayAbout(){
    const aboutTitle= document.createElement("h3");
    aboutText.appendChild(aboutTitle);
    aboutTitle.setAttribute("id", "aboutTitle");
+   aboutTitle.textContent="Know more about us";
 
    const aboutPara= document.createElement("p");
    aboutText.appendChild(aboutPara);

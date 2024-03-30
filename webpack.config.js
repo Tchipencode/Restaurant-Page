@@ -5,8 +5,8 @@ module.exports = {
    mode: 'development',
   entry: {
    index: './src/index.js',
-   pageLoad: './src/pageLoad.js',
-   pageMenu: './src/pageMenu.js',
+  //  pageLoad: './src/pageHome.js',
+  //  pageMenu: './src/pageMenu.js',
   },
   devtool: 'inline-source-map',
   devServer: {

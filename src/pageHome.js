@@ -1,7 +1,6 @@
 import Img1 from './images/eru2.jpeg';
 import Img2 from './images/koki.jpeg';
 import Img3 from './images/taro.jpeg';
-import Logo from './images/logo.png';
 import Img4 from './images/Mask group.png';
 import Dish from './images/dish.png';
 import Person1 from './images/person-1.png';
@@ -13,25 +12,16 @@ import Dot from './images/Dot.png';
 
 
 
-export default function pageContent(){
+function displayHome(){
    const content= document.querySelector("#content");
-   const header=document.querySelector("header");
-   const nav=document.querySelector("nav");
 
-   const logo= document.createElement("img");
-   header.appendChild(logo);
-   logo.src=Logo;
-   header.prepend(logo);
-
-
-   const btnBook=document.createElement("button");
-   btnBook.classList.add("btnBook");
-   header.appendChild(btnBook);
-   btnBook.textContent="Book a table";
+   const home=document.createElement("div");
+   content.appendChild(home);
+   home.classList.add("home");
 
    const firstDiv=document.createElement("div");
    firstDiv.classList.add("firstDiv");
-   content.appendChild(firstDiv);
+   home.appendChild(firstDiv);
 
    const homeTitle= document.createElement("div");
    homeTitle.classList.add("home-title");
@@ -73,30 +63,36 @@ export default function pageContent(){
 
    const secondDiv= document.createElement("div");
    secondDiv.classList.add("secondDiv");
-   content.appendChild(secondDiv);
+   home.appendChild(secondDiv);
 
    const hourOpen=document.createElement("div");
    hourOpen.classList.add("hourOpen");
    secondDiv.appendChild(hourOpen);
-   hourOpen.textContent="our open hours"
    const paraOne=document.createElement("p");
    hourOpen.appendChild(paraOne);
-   paraOne.textContent=" Monday: close"
+   paraOne.setAttribute("id", "paraOne");
+   paraOne.textContent=" our open hours";
    const paraTwo=document.createElement("p");
    hourOpen.appendChild(paraTwo);
-   paraTwo.textContent=" Tuesday: 08H - 22H"
+   paraTwo.textContent=" Monday: close";
+   const paraThree=document.createElement("p");
+   hourOpen.appendChild(paraThree);
+   paraThree.textContent=" Tuesday to Sunday: 09H - 22H";
    
    const address=document.createElement("div");
    address.classList.add("address");
    secondDiv.appendChild(address);
-   address.textContent=" Our location"
+   const addressTitle=document.createElement("p");
+   address.appendChild(addressTitle);
+   addressTitle.textContent=" Our location";
+   addressTitle.setAttribute("id", "addressTitle");
    const location=document.createElement("p");
    address.appendChild(location);
-   location.textContent=" 123 rue Foch, Douala, Cameroun"
+   location.textContent=" 123 rue Foch, Douala, Cameroon";
 
    const thirdDiv=document.createElement("div");
    thirdDiv.classList.add("thirdDiv");
-   content.appendChild(thirdDiv);
+   home.appendChild(thirdDiv);
    
    const dishTitle=document.createElement("p");
    thirdDiv.appendChild(dishTitle);
@@ -142,7 +138,7 @@ export default function pageContent(){
 
    const fourthDiv=document.createElement("div");
    fourthDiv.classList.add("fourthDiv");
-   content.appendChild(fourthDiv);
+   home.appendChild(fourthDiv);
 
    const feedTitle=document.createElement("div");
    fourthDiv.appendChild(feedTitle);
@@ -214,44 +210,11 @@ export default function pageContent(){
    dotImg.src=Dot;
    dot.appendChild(dotImg);
 
-   const footer=document.createElement("div");
-   footer.classList.add("footer");
-   document.body.appendChild(footer);
-
-   const footerul=document.createElement("ul");
-   footer.appendChild(footerul);
-
-   const footerli1=document.createElement("li");
-   footerul.appendChild(footerli1);
-   footerli1.textContent="Created by TchipenCode";
-
-   const footerli2=document.createElement("li");
-   footerul.appendChild(footerli2);
-   const link1=document.createElement("a");
-   footerli2.appendChild(link1);
-   link1.textContent="Home design by Isaac Donkoh on Figma";
-   link1.href="https://www.figma.com/file/frF7JGEyMKouKPNU1skLE1/Restaurant-website-Landing-Page-Design-(Community)?type=design&node-id=1-3&mode=design&t=Ib6Uc0I2c9aDnMEp-0";
-
-   const footerli3=document.createElement("li");
-   footerul.appendChild(footerli3);
-   const link2=document.createElement("a");
-   footerli3.appendChild(link2);
-   link2.textContent="Menu design by: Mehrab Bozorgi on Figma";
-   link2.href="https://www.figma.com/file/bLEhYjxIBojVGhXEvszGqR/Restaurant-Website-(Community)?type=design&node-id=1-432&mode=design&t=BFpYgZL7vjTr3WX1-0";
-   
-   const footerli4=document.createElement("li");
-   footerul.appendChild(footerli4);
-   const link3=document.createElement("a");
-   footerli4.appendChild(link3);
-   link3.textContent="Credit photo: freepik";
-   link3.href="https://fr.freepik.com/user/downloads?page=1&type=regular"
-   return ( title, hourOpen, address, feedback, thirdDiv, fourthDiv, footer);
+   return ( home);
 
 }
 
-function clear(){
-   content.remove();
-   // content.remove();
-}
-export{clear};
+export default displayHome;
+
+
 

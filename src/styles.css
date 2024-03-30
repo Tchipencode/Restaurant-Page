@@ -41,6 +41,7 @@ nav button{
    margin: 10px;
    color: #F3F4F4;
    font-size: 1rem;
+   cursor: pointer;
 }
 .btnBook{
    width: 110px;
@@ -52,6 +53,7 @@ nav button{
    color: #F3F4F4;
    font-size: 1rem;
    font-weight: bold;
+   cursor: pointer;
 }
 #content{
    display: flex;
@@ -60,6 +62,13 @@ nav button{
    align-items: center;
    background-color: #a1a1aa;
    /* height: 100%; */
+}
+.home{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #a1a1aa;
 }
 .firstDiv{
    display: grid;
@@ -100,6 +109,7 @@ nav button{
    font-size: 1.5rem;
    font-weight: 120px;
    box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.2);
+   cursor: pointer;
 
 }
 #btnSubBook{
@@ -113,14 +123,15 @@ nav button{
    font-size: 1.5rem;
    font-weight: 120px;
    box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.2);
+   cursor: pointer;
 }
-/* .homePic{
+.homePic{
    position: relative;
-} */
+}
 #dish{
    position: absolute;
    top: 320px;
-   left: 470px;
+   right: 380px;
    /* right: 450px; */
    
 }
@@ -140,7 +151,28 @@ nav button{
 .hourOpen{
    display:flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: space-around;
+   align-items: center;
+   border: none;
+   border-radius: 10px;
+   background-color: #a1a1aa;
+   width: 400px;
+   height: 200px;
+   box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.2);
+   
+
+}
+.hourOpen #paraOne{
+   font-size: 2rem;
+   font-weight: bolt;
+   color: #F3F4F4;
+   margin-top: 20px
+}
+.address{
+   display:flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
    border: none;
    border-radius: 10px;
    background-color: #a1a1aa;
@@ -149,17 +181,11 @@ nav button{
    box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.2);
 
 }
-.address{
-   display:flex;
-   flex-direction: column;
-   justify-content: center;
-   border: none;
-   border-radius: 10px;
-   background-color: #a1a1aa;
-   width: 400px;
-   height: 200px;
-   box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.2);
-
+#addressTitle{
+   font-size: 2rem;
+   font-weight: bolt;
+   color: #F3F4F4;
+   margin-top: 20px
 }
 
 .thirdDiv{
@@ -365,7 +391,13 @@ ul li{
    margin: 150px 100px 50px 100px;
 
 }
+.aboutText{
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: start;
+}
 #aboutTitle{
-   font-size: 1.5rem;
+   font-size: 2rem;
    color: #F3F4F4;
 }
